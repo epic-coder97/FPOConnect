@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <title> </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="style/style.css"> 
+        <script>
+
+        </script>
+
+    </head>
+    <body>
+        <div class="container">
+                <div class="col-sm-7 mx-auto" id="main">
+
+                   <div class="row form-group">
+                        <label class="col-sm-4"> Name of FPO<span style="color: red;">*</span></label>
+                        <input type="text" name="Name" class="col-sm-8 form-control" required > 
+                    </div>
+
+                     <div class="row form-group">
+                        <label class="col-sm-4"> Contact No <span style="color: red;">*</span></label>
+                        <input type="text" name="Contactno" class="col-sm-8 form-control" required > 
+                    </div>
+
+                       <div class="row form-group">
+                        <label class="col-sm-4"> Email Id <span style="color: red;">*</span></label>
+                        <input type="text" name="email" class="col-sm-8 form-control" required > 
+                    </div>
+                    <div class="row form-group">
+                        <label class="col-sm-4"> Address <span style="color: red;">*</span></label>
+                        <input type="text" name="Contactno" class="col-sm-8 form-control" required > 
+                    </div>
+
+                    <div class="row form-group">
+                        <label class="col-sm-4"> Category <span style="color: red;">*</span></label>
+                   
+                        <select class="form-control" id="sel1">
+                       <option>Agriculture</option>
+                       <option>Fishery</option>
+                       <option>Dairy</option>
+                       <option>Forest</option>
+                       <option>Other</option>
+                        </select>
+						</div>
+                    <div class="row form-group">
+                        <label class="col-sm-4"> Member associate <span style="color: red;">*</span></label>
+                        <input type="text" name="Name" class="col-sm-8 form-control" required > 
+                    </div>
+                    <div class="row form-group">
+                        <label class="col-sm-4"> Date of Incorporation <span style="color: red;">*</span></label>
+                        <input type="date" name="date" class="col-sm-8 form-control" required> 
+                    </div>
+                    <div class="row form-group">
+                        <label class="col-sm-4"> Pan No. <span style="color: red;">*</span></label>
+                        <input type="text" class="col-sm-8 form-control" maxlength="10" name="Pan" required> 
+                    </div>
+                    <div class="row form-group">
+                        <label id="username" class="col-sm-4"> GST no. <span style="color: red;">*</span></label>
+                        <input type="text" class="col-sm-8 form-control" name="Email" required> 
+                    </div>
+                    <div class="row form-group">
+                        <label class="col-sm-4"> Certification of Incorporation <span style="color: red;">*</span></label>
+                        <input id="certify" type="file" class="col-sm-8" name="filename" required> 
+                    </div>
+
+                    <div class="row form-group" id="gender">
+                        <label class="col-sm-4"> GST Certificate <span style="color: red;">*</span> </label>
+                        <input type="file" id="gst_certify" class="col-sm-8" name="GSTfile" required>
+                    </div>
+                    <div class="col-sm-4 mx-auto" id="submit">
+                        <button type="submit" class="btn-primary"> Submit </button>
+                    </div>
+                </div>
+        </div>   
+    </body>
+</html>    
+
+
